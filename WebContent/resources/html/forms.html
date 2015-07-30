@@ -1,0 +1,246 @@
+<header class="article-header clearfix">
+	<h2>Forms</h2>
+</header>
+
+<article class="main-article col-md-12">
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-tasks"></i>
+			<span>Default Form and Inputs</span>
+		</div>
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-md-6">
+					<form class="form-horizontal" role="form">
+						<fieldset>
+							<legend>Form Name</legend>
+							<div class="form-group">
+								<label for="cardHoldersName" class="col-lg-4 control-label">Card
+									Holder's Name</label>
+								<div class="col-lg-8">
+									<input type="text" class="form-control" id="cardHoldersName">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-4 control-label">Card Number</label>
+								<div class="col-lg-8">
+									<div class="row">
+										<div class="col-lg-3 col-sm-3">
+											<input type="text" class="form-control">
+										</div>
+										<div class="col-lg-3 col-sm-3">
+											<input type="text" class="form-control">
+										</div>
+										<div class="col-lg-3 col-sm-3">
+											<input type="text" class="form-control">
+										</div>
+										<div class="col-lg-3 col-sm-3">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-4 control-label">Card Expiry Date</label>
+								<div class="col-lg-8 col-sm-12">
+									<input type="date" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="cardCvv" class="col-lg-4 control-label">Card
+									CVV</label>
+								<div class="col-lg-8">
+									<input type="text" class="form-control" id="cardCvv">
+								</div>
+							</div>
+						</fieldset>
+					</form>	
+				</div>
+			</div>
+			
+			<div class="row">	
+				<div class="col-md-12">
+<pre><code class="html"><span class="nt">&lt;legend</span><span class="nt">&gt;</span>Form Name<span class="nt">&lt;/legend&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="nt">&gt;</span>Card Holder's Name<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"inputSuccess"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span><span class="nt">&gt;</span>Card Number<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-3 col-sm-3"</span><span class="nt">&gt;</span>
+	  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-3 col-sm-3"</span><span class="nt">&gt;</span>
+	  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-3 col-sm-3"</span><span class="nt">&gt;</span>
+	  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>				
+				</div>	
+			</div>
+			
+			<div class="row">	
+				<div class="col-md-6">								
+					<form class="bs-example">
+						<div class="form-group">
+							<label class="control-label" for="focusedInput">Focused input</label>
+							<input class="form-control" id="focusedInput" type="text" placeholder="This is focused...">
+						</div>
+						
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="s">"focusedInput"</span><span class="nt">&gt;</span>
+    Focused input
+  <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"focusedInput"</span> <span class="na">placeholder=</span>"This is focused..."</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>						
+</code></pre>	
+					</form>
+				</div>
+				
+				<div class="col-md-6">	
+					<form class="bs-example">
+						<div class="form-group">
+							<label class="control-label" for="disabledInput">Disabled input</label> 
+							<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
+						</div>
+					</form>
+					
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="s">"disabledInput"</span><span class="nt">&gt;</span>
+    Disabled input
+  <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"disabledInput"</span> <span class="na">placeholder=</span>"Disabled input here..."</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>						
+</code></pre>						
+					
+				</div>				
+			</div>
+			
+			<div class="row">	
+				<div class="col-md-6">								
+					<form class="bs-example">
+						<div class="form-group">
+							<label class="control-label" for="largeInput">Large input</label>
+							<input class="form-control input-lg" id="largeInput" type="text" placeholder="Large input here...">
+						</div>
+						
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="s">"largeInput"</span><span class="nt">&gt;</span>
+    Large input
+  <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control input-lg"</span> <span class="na">id=</span><span class="s">"largeInput"</span> <span class="na">placeholder=</span>"Large input here..."</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>						
+</code></pre>	
+					</form>
+				</div>
+				
+				<div class="col-md-6">	
+					<form class="bs-example">
+						<div class="form-group">
+							<label class="control-label" for="defaultInput">Default input</label> 
+							<input class="form-control" id="defaultInput" type="text" placeholder="Default input here...">
+						</div>
+					</form>
+					
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="s">"defaultInput"</span><span class="nt">&gt;</span>
+    Default input
+  <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">id=</span><span class="s">"defaultInput"</span> <span class="na">placeholder=</span>"Default input here..."</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>						
+</code></pre>						
+					
+				</div>				
+			</div>			
+			
+			<div class="row">	
+				<div class="col-md-6">								
+					<form class="bs-example">
+						<div class="form-group">
+							<label class="control-label" for="smallInput">Small input</label>
+							<input class="form-control input-sm" id="smallInput" type="text" placeholder="Small input here...">
+						</div>
+						
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="s">"smallInput"</span><span class="nt">&gt;</span>
+    Small input
+  <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control input-sm"</span> <span class="na">id=</span><span class="s">"smallInput"</span> <span class="na">placeholder=</span>"Small input here..."</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>						
+</code></pre>	
+					</form>
+				</div>
+				
+				<div class="col-md-6">	
+					<form class="bs-example">
+					
+					
+						<div class="form-group">
+							<label class="control-label">Input addons</label>
+							<div class="input-group">
+								<span class="input-group-addon">$</span> 
+								<input type="text" class="form-control" placeholder="Input here..."> 
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button">Button</button>
+								</span>
+							</div>
+						</div>
+					</form>
+					
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="s">"input-group-addon"</span><span class="nt">&gt;</span>
+    Input addons
+  <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-group-addon"</span><span class="nt">&gt;</span>$ 
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">placeholder=</span>"Input here..."<span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-group-btn"</span><span class="nt">&gt;</span> 
+      <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="nt">&gt;</span>Button<span class="nt">&gt;</span>
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>	   
+<span class="nt">&lt;/div&gt;</span>	 
+</code></pre>						
+					
+				</div>				
+			</div>				
+		</div>
+	</div>
+	
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-tasks"></i>
+			<span>Input Validation States</span>
+		</div>
+		<div class="panel-body">
+			<div class="form-group has-success">
+				<label class="control-label" for="inputSuccess">Input with success</label> <input type="text" class="form-control" id="inputSuccess">
+			</div>
+			<div class="form-group has-warning">
+				<label class="control-label" for="inputWarning">Input with warning</label> <input type="text" class="form-control" id="inputWarning">
+			</div>
+			<div class="form-group has-error">
+				<label class="control-label" for="inputError">Input with error</label> <input type="text" class="form-control" id="inputError">
+			</div>
+			
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group has-success"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="s">"inputSuccess"</span><span class="nt">&gt;</span>Input with success<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"inputSuccess"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group has-warning"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="s">"inputWarning"</span><span class="nt">&gt;</span>Input with warning<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"inputWarning"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group has-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"control-label"</span> <span class="na">for=</span><span class="s">"inputError"</span><span class="nt">&gt;</span>Input with error<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"inputError"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>			
+		</div>
+	</div>	
+</article>

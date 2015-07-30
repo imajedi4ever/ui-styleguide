@@ -1,0 +1,407 @@
+<header class="article-header clearfix">
+	<h2>Typography</h2>
+</header>
+
+<article class="main-article col-md-12">
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-font"></i>
+			<span>Headings &amp; Paragraphs</span>
+		</div>
+		<div class="panel-body">
+			<h1>h1. Bootstrap heading</h1>
+			<h2>h2. Bootstrap heading</h2>
+			<h3>h3. Bootstrap heading</h3>
+			<h4>h4. Bootstrap heading</h4>
+			<h5>h5. Bootstrap heading</h5>
+			<h6>h6. Bootstrap heading</h6>
+<pre><code class="html"><span class="nt">&lt;h1&gt;</span>...<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>...<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span>...<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;h4&gt;</span>...<span class="nt">&lt;/h4&gt;</span>
+<span class="nt">&lt;h5&gt;</span>...<span class="nt">&lt;/h5&gt;</span>
+<span class="nt">&lt;h6&gt;</span>...<span class="nt">&lt;/h6&gt;</span>
+</code></pre>
+
+			<h3>Paragraph Options</h3>
+			<p>Make a paragraph stand out by adding <code>.lead</code>.</p>	
+			<p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>		
+			
+<pre><code class="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"lead"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span></code></pre>
+
+			<!-- Emphasis -->
+			<h3 id="type-emphasis">Emphasis</h3>
+			<p>Make use of HTML's default emphasis tags with lightweight styles.</p>
+
+			<h4>Small text</h4>
+			<p>
+				For de-emphasizing inline or blocks of text, use the
+				<code>&lt;small&gt;</code>
+				tag to set text at 85% the size of the parent. Heading elements receive their own
+				<code>font-size</code>
+				for nested
+				<code>&lt;small&gt;</code>
+				elements.
+			</p>
+			<div class="bs-example">
+				<p>
+					<small>This line of text is meant to be treated as fine print.</small>
+				</p>
+			</div>
+			
+<pre><code class="html"><span class="nt">&lt;small&gt;</span>This line of text is meant to be treated as fine print.<span class="nt">&lt;/small&gt;</span></code></pre>
+		
+		
+		    <h4>Bold</h4>
+		    <p>For emphasizing a snippet of text with a heavier font-weight.</p>
+		    <div class="bs-example">
+		      <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+		    </div>
+		    
+<pre><code class="html"><span class="nt">&lt;strong&gt;</span>rendered as bold text<span class="nt">&lt;/strong&gt;</span></code></pre>
+
+			<h4>Italics</h4>
+			<p>For emphasizing a snippet of text with italics.</p>
+			<div class="bs-example">
+				<p>
+					The following snippet of text is <em>rendered as italicized text</em>.
+				</p>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;em&gt;</span>rendered as italicized text<span class="nt">&lt;/em&gt;</span></code></pre>
+
+			<h5>Alternate elements</h5>
+			<p>
+				Feel free to use
+				<code>&lt;b&gt;</code>
+				and
+				<code>&lt;i&gt;</code>
+				in HTML5.
+				<code>&lt;b&gt;</code>
+				is meant to highlight words or phrases without conveying additional importance while
+				<code>&lt;i&gt;</code>
+				is mostly for voice, technical terms, etc.
+			</p>
+
+			<h4>Alignment classes</h4>
+			<p>Easily realign text to components with text alignment classes.</p>
+			<div class="bs-example">
+				<p class="text-left">Left aligned text.</p>
+				<p class="text-center">Center aligned text.</p>
+				<p class="text-right">Right aligned text.</p>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-left&quot;</span><span class="nt">&gt;</span>Left aligned text.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-center&quot;</span><span class="nt">&gt;</span>Center aligned text.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-right&quot;</span><span class="nt">&gt;</span>Right aligned text.<span class="nt">&lt;/p&gt;</span>
+</code></pre>
+	
+			<h4>Emphasis classes</h4>
+			<p>Convey meaning through color with a handful of emphasis utility classes.</p>
+			<div class="bs-example">
+				<p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+				<p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				<p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+				<p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+				<p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+				<p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+			</div>
+	
+<pre><code class="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-muted&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-primary&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-success&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-info&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-warning&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-danger&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+</code></pre>
+
+			<!-- Abbreviations -->
+			<h3 id="type-abbreviations">Abbreviations</h3>
+			<p>
+				Stylized implementation of HTML's
+				<code>&lt;abbr&gt;</code>
+				element for abbreviations and acronyms to show the expanded version on hover. Abbreviations with a
+				<code>title</code>
+				attribute have a light dotted bottom border and a help cursor on hover, providing additional context on hover.
+			</p>
+
+			<h3>Basic abbreviation</h3>
+			<p>
+				For expanded text on long hover of an abbreviation, include the
+				<code>title</code>
+				attribute with the
+				<code>&lt;abbr&gt;</code>
+				element.
+			</p>
+			<div class="bs-example">
+				<p>
+					An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.
+				</p>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;attribute&quot;</span><span class="nt">&gt;</span>attr<span class="nt">&lt;/abbr&gt;</span>
+</code></pre>
+
+			<h4>Initialism</h4>
+			<p>
+				Add
+				<code>.initialism</code>
+				to an abbreviation for a slightly smaller font-size.
+			</p>
+			<div class="bs-example">
+				<p>
+					<abbr title="HyperText Markup Language" class="initialism">HTML</abbr> is the best thing since sliced bread.
+				</p>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;HyperText Markup Language&quot;</span> <span class="na">class=</span><span class="s">&quot;initialism&quot;</span><span class="nt">&gt;</span>HTML<span class="nt">&lt;/abbr&gt;</span>
+</code></pre>
+
+			<!-- Addresses -->
+			<h3 id="type-addresses">Addresses</h3>
+			<p>
+				Present contact information for the nearest ancestor or the entire body of work. Preserve formatting by ending all lines with
+				<code>&lt;br&gt;</code>
+				.
+			</p>
+			<div class="bs-example">
+				<address>
+					<strong>Twitter, Inc.</strong><br> 795 Folsom Ave, Suite 600<br> San Francisco, CA 94107<br> <abbr title="Phone">P:</abbr> (123) 456-7890
+				</address>
+				<address>
+					<strong>Full Name</strong><br> <a href="mailto:#">first.last@example.com</a>
+				</address>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;address&gt;</span>
+ <span class="nt">&lt;strong&gt;</span>Twitter, Inc.<span class="nt">&lt;/strong&gt;&lt;br&gt;</span>
+ 795 Folsom Ave, Suite 600<span class="nt">&lt;br&gt;</span>
+ San Francisco, CA 94107<span class="nt">&lt;br&gt;</span>
+ <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Phone&quot;</span><span class="nt">&gt;</span>P:<span class="nt">&lt;/abbr&gt;</span> (123) 456-7890
+<span class="nt">&lt;/address&gt;</span>
+		
+<span class="nt">&lt;address&gt;</span>
+ <span class="nt">&lt;strong&gt;</span>Full Name<span class="nt">&lt;/strong&gt;&lt;br&gt;</span>
+ <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;mailto:#&quot;</span><span class="nt">&gt;</span>first.last@example.com<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/address&gt;</span>
+</code></pre>
+
+			<!-- Blockquotes -->
+			<h3 id="type-blockquotes">Blockquotes</h3>
+			<p>For quoting blocks of content from another source within your document.</p>
+
+			<h4>Default blockquote</h4>
+			<p>
+				Wrap
+				<code>&lt;blockquote&gt;</code>
+				around any <abbr title="HyperText Markup Language">HTML</abbr> as the quote. For straight quotes, we recommend a
+				<code>&lt;p&gt;</code>
+				.
+			</p>
+			<div class="bs-example">
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				</blockquote>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;blockquote&gt;</span>
+ <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span>
+</code></pre>
+
+			<h4>Blockquote options</h4>
+			<p>
+				Style and content changes for simple variations on a standard
+				<code>&lt;blockquote&gt;</code>
+				.
+			</p>
+
+			<h4>Naming a source</h4>
+			<p>
+				Add
+				<code>&lt;small&gt;</code>
+				tag for identifying the source. Wrap the name of the source work in
+				<code>&lt;cite&gt;</code>
+				.
+			</p>
+			<div class="bs-example">
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+				</blockquote>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;blockquote&gt;</span>
+ <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;small&gt;</span>Someone famous in <span class="nt">&lt;cite</span> <span class="na">title=</span><span class="s">&quot;Source Title&quot;</span><span class="nt">&gt;</span>Source Title<span class="nt">&lt;/cite&gt;&lt;/small&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span>
+</code></pre>
+
+			<h4>Alternate displays</h4>
+			<p>
+				Use
+				<code>.pull-right</code>
+				for a floated, right-aligned blockquote.
+			</p>
+			<div class="bs-example" style="overflow: hidden;">
+				<blockquote class="pull-right">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+				</blockquote>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;blockquote</span> <span class="na">class=</span><span class="s">&quot;pull-right&quot;</span><span class="nt">&gt;</span>
+  ...
+<span class="nt">&lt;/blockquote&gt;</span>
+</code></pre>
+
+			<!-- Lists -->
+			<h3 id="type-lists">Lists</h3>
+
+			<h4>Unordered</h4>
+			<p>
+				A list of items in which the order does <em>not</em> explicitly matter.
+			</p>
+			<div class="bs-example">
+				<ul>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Consectetur adipiscing elit</li>
+					<li>Integer molestie lorem at massa</li>
+					<li>Facilisis in pretium nisl aliquet</li>
+					<li>Nulla volutpat aliquam velit
+						<ul>
+							<li>Phasellus iaculis neque</li>
+							<li>Purus sodales ultricies</li>
+							<li>Vestibulum laoreet porttitor sem</li>
+							<li>Ac tristique libero volutpat at</li>
+						</ul>
+					</li>
+					<li>Faucibus porta lacus fringilla vel</li>
+					<li>Aenean sit amet erat nunc</li>
+					<li>Eget porttitor lorem</li>
+				</ul>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;ul&gt;</span>
+ <span class="nt">&lt;li&gt;</span>...<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre>
+
+			<h4>Ordered</h4>
+			<p>
+				A list of items in which the order <em>does</em> explicitly matter.
+			</p>
+			<div class="bs-example">
+				<ol>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Consectetur adipiscing elit</li>
+					<li>Integer molestie lorem at massa</li>
+					<li>Facilisis in pretium nisl aliquet</li>
+					<li>Nulla volutpat aliquam velit</li>
+					<li>Faucibus porta lacus fringilla vel</li>
+					<li>Aenean sit amet erat nunc</li>
+					<li>Eget porttitor lorem</li>
+				</ol>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;ol&gt;</span>
+ <span class="nt">&lt;li&gt;</span>...<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre>
+		
+		    <h4>Unstyled</h4>
+		    <p>Remove the default <code>list-style</code> and left margin on list items (immediate children only). <strong>This only applies to immediate children list items</strong>, meaning you will need to add the class for any nested lists as well.</p>
+		    <div class="bs-example">
+		      <ul class="list-unstyled">
+		        <li>Lorem ipsum dolor sit amet</li>
+		        <li>Consectetur adipiscing elit</li>
+		        <li>Integer molestie lorem at massa</li>
+		        <li>Facilisis in pretium nisl aliquet</li>
+		        <li>Nulla volutpat aliquam velit
+		          <ul>
+		            <li>Phasellus iaculis neque</li>
+		            <li>Purus sodales ultricies</li>
+		            <li>Vestibulum laoreet porttitor sem</li>
+		            <li>Ac tristique libero volutpat at</li>
+		          </ul>
+		        </li>
+		        <li>Faucibus porta lacus fringilla vel</li>
+		        <li>Aenean sit amet erat nunc</li>
+		        <li>Eget porttitor lorem</li>
+		      </ul>
+		    </div>
+
+<pre><code class="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-unstyled&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;li&gt;</span>...<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre>
+
+			<h4>Inline</h4>
+			<p>
+				Place all list items on a single line with
+				<code>display: inline-block;</code>
+				and some light padding.
+			</p>
+			<div class="bs-example">
+				<ul class="list-inline">
+					<li>Lorem ipsum</li>
+					<li>Phasellus iaculis</li>
+					<li>Nulla volutpat</li>
+				</ul>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-inline&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;li&gt;</span>...<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre>
+
+			<h4>Description</h4>
+			<p>A list of terms with their associated descriptions.</p>
+			<div class="bs-example">
+				<dl>
+					<dt>Description lists</dt>
+					<dd>A description list is perfect for defining terms.</dd>
+					<dt>Euismod</dt>
+					<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+					<dd>Donec id elit non mi porta gravida at eget metus.</dd>
+					<dt>Malesuada porta</dt>
+					<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+				</dl>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;dl&gt;</span>
+ <span class="nt">&lt;dt&gt;</span>...<span class="nt">&lt;/dt&gt;</span>
+ <span class="nt">&lt;dd&gt;</span>...<span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span>
+</code></pre>
+
+			<h4>Horizontal description</h4>
+			<p>
+				Make terms and descriptions in
+				<code>&lt;dl&gt;</code>
+				line up side-by-side. Starts off stacked like default
+				<code>&lt;dl&gt;</code>
+				s, but when the navbar expands, so do these.
+			</p>
+			<div class="bs-example">
+				<dl class="dl-horizontal">
+					<dt>Description lists</dt>
+					<dd>A description list is perfect for defining terms.</dd>
+					<dt>Euismod</dt>
+					<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+					<dd>Donec id elit non mi porta gravida at eget metus.</dd>
+					<dt>Malesuada porta</dt>
+					<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+					<dt>Felis euismod semper eget lacinia</dt>
+					<dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+				</dl>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;dl</span> <span class="na">class=</span><span class="s">&quot;dl-horizontal&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;dt&gt;</span>...<span class="nt">&lt;/dt&gt;</span>
+ <span class="nt">&lt;dd&gt;</span>...<span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span>
+</code></pre>
+		
+	</div>
+</article>

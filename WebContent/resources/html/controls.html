@@ -1,0 +1,286 @@
+<header class="article-header clearfix">
+	<h2>Controls</h2>
+</header>
+
+<article class="main-article col-md-12">
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-hand-up"></i>
+			<span class="panel-heading-text">Buttons</span>
+		</div>
+		<div id="color-palette" class="panel-body">
+			<div class="example-group">
+				<button type="button" class="btn btn-default">Default</button>
+				<button type="button" class="btn btn-primary">Primary</button>
+				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-info">Info</button>
+				<button type="button" class="btn btn-warning">Warning</button>
+				<button type="button" class="btn btn-danger">Danger</button>
+				<button type="button" class="btn btn-link">Link</button>
+			</div>				
+					
+<pre><code class="html"><span class="c">&lt;!-- Buttons --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="nt">&gt;</span>
+    Default button 
+  <span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+					
+			<h3>Available Variations</h3>
+			<p>To manage button color and size, simply add or edit the classes provided which render them.</p>	
+			<div class="example-group center-align">
+				<button type="button" class="btn btn-lg btn-default">Default</button>
+				<button type="button" class="btn btn-lg btn-primary">Primary</button>
+				<button type="button" class="btn btn-lg btn-success">Success</button>
+				<button type="button" class="btn btn-lg btn-info">Info</button>
+				<button type="button" class="btn btn-lg btn-warning">Warning</button>
+				<button type="button" class="btn btn-lg btn-danger">Danger</button>
+				<button type="button" class="btn btn-lg btn-link">Link</button>
+			</div>	
+			<div class="example-group center-align">
+				<button type="button" class="btn btn-default">Default</button>
+				<button type="button" class="btn btn-primary">Primary</button>
+				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-info">Info</button>
+				<button type="button" class="btn btn-warning">Warning</button>
+				<button type="button" class="btn btn-danger">Danger</button>
+				<button type="button" class="btn btn-link">Link</button>
+			</div>	
+			<div class="example-group center-align">
+				<button type="button" class="btn btn-sm btn-default">Default</button>
+				<button type="button" class="btn btn-sm btn-primary">Primary</button>
+				<button type="button" class="btn btn-sm btn-success">Success</button>
+				<button type="button" class="btn btn-sm btn-info">Info</button>
+				<button type="button" class="btn btn-sm btn-warning">Warning</button>
+				<button type="button" class="btn btn-sm btn-danger">Danger</button>
+				<button type="button" class="btn btn-sm btn-link">Link</button>
+			</div>
+			<div class="example-group center-align">
+				<button type="button" class="btn btn-xs btn-default">Default</button>
+				<button type="button" class="btn btn-xs btn-primary">Primary</button>
+				<button type="button" class="btn btn-xs btn-success">Success</button>
+				<button type="button" class="btn btn-xs btn-info">Info</button>
+				<button type="button" class="btn btn-xs btn-warning">Warning</button>
+				<button type="button" class="btn btn-xs btn-danger">Danger</button>
+				<button type="button" class="btn btn-xs btn-link">Link</button>
+			</div>
+
+<pre><code class="html"><span class="c">&lt;!-- Colors --&gt;</span>
+<code class="html"><span class="s">"btn-default"</span></code>  
+<code class="html"><span class="s">"btn-primary"</span></code>  
+<code class="html"><span class="s">"btn-success"</span></code>  
+<code class="html"><span class="s">"btn-info"</span></code>  
+<code class="html"><span class="s">"btn-warning"</span></code>  
+<code class="html"><span class="s">"btn-danger"</span></code>
+</code></pre>					
+
+<pre><code class="html"><span class="c">&lt;!-- Sizes --&gt;</span>
+<code class="html"><span class="s">"btn-lg"</span></code>  
+<span class="c">&lt;!-- No size class will render the default (medium) --&gt;</span>
+<code class="html"><span class="s">"btn-sm"</span></code>  
+<code class="html"><span class="s">"btn-xs"</span></code>
+</code></pre>					
+				
+		</div>
+	</div>
+
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-hand-up"></i>
+			<span>Buttons with dropdowns</span>
+		</div>
+		<div id="color-palette" class="panel-body">
+			<div class="example-group">	
+				<div class="btn-group">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Default <span class="caret"></span></button>
+			  		<ul class="dropdown-menu" role="menu">
+					    <li><a href="#">Action</a></li>
+					    <li><a href="#">Another action</a></li>
+					    <li><a href="#">Something else here</a></li>
+					    <li class="divider"></li>
+				    	<li><a href="#">Separated link</a></li>
+				  	</ul>
+				</div>
+    			<div class="btn-group">
+					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+						Primary <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+				</div>
+				<div class="btn-group">
+					<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+						Success <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+				</div>
+				<div class="btn-group">
+					<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+						Info <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+				</div>
+				<div class="btn-group">
+					<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+						Warning <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+				</div>
+				<div class="btn-group">
+					<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+						Danger <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+				</div>
+			</div>
+
+<pre><code class="html"><span class="c">&lt;!-- Single button --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span><span class="nt">&gt;</span>
+    Action <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"caret"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">role=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"divider"</span><span class="nt">&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Separated link<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+		
+		</div>
+	</div>
+	
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-hand-up"></i>
+			<span class="panel-heading-text">Buttons with icons</span>
+		</div>
+		<div id="color-palette" class="panel-body">
+			<div class="example-group">
+				<div class="btn-group">
+					<button class="btn btn-primary btn-small">
+						<i class="glyphicon glyphicon-star"></i> Icon button
+					</button>
+				</div>
+			</div>
+			
+<pre><code class="html"><span class="c">&lt;!-- Buttons --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-small"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="nt">&gt;</span>
+  	<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"glyphicon glyphicon-star"</span><span class="nt">&lt;/i&gt;</span> Icon button 
+  <span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>			
+
+			<h3>Available Variations</h3>
+			<p>Icon button with dropdown</p>
+			
+			<div class="example-group">
+				<div class="btn-group">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						<i class="glyphicon glyphicon-user"></i> Icon button <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+						<li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+						<li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="i"></i> Make admin</a></li>
+					</ul>	
+				</div>			
+			</div>	
+			
+<pre><code class="html"><span class="c">&lt;!-- Buttons --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-small"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="nt">&gt;</span>
+    <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"glyphicon glyphicon-star"</span><span class="nt">&lt;/i&gt;</span> Icon button with dropdown
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"caret"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Dropdown menu links --&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>				
+			
+		</div>
+	</div>
+	
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-hand-up"></i>
+			<span class="panel-heading-text">Dropup Buttons</span>
+		</div>
+		<div id="color-palette" class="panel-body">		
+			<div class="example-group">
+				<div class="btn-group dropup">
+					<button class="btn btn-warning">Dropup</button>
+					<button data-toggle="dropdown" class="btn btn-warning dropdown-toggle">
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu dropdown-warning">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+				</div>
+				<div class="btn-group dropup">
+					<button class="btn btn-dark-blue">Right dropup</button>
+					<button data-toggle="dropdown" class="btn btn-dark-blue dropdown-toggle">
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu dropdown-dark-blue pull-right">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+				</div>
+			</div>
+
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group dropup"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Dropup<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"caret"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Dropdown menu links --&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>			
+			
+		</div>
+	</div>
+</article>

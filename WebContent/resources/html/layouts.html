@@ -1,0 +1,216 @@
+<header class="article-header clearfix">
+	<h2>Layouts &amp; Grids</h2>
+</header>
+
+<article class="main-article col-md-12">
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-indent-right"></i>
+			<span>HTML5 Layouts &#40;Examples&#41;</span>
+		</div>
+		<div class="panel-body html5-layouts">
+			<div class="row">
+				<div class="col-sm-6 col-md-3">
+					<a class="thumbnail" data-toggle="modal" href="#html5-layout-a-modal" title="Click to zoom.">
+						<img src="resources/img/html5-layout-a.png">
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<a class="thumbnail" data-toggle="modal" href="#html5-layout-b-modal" title="Click to zoom.">
+						<img src="resources/img/html5-layout-b.png">
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<a class="thumbnail" data-toggle="modal" href="#html5-layout-c-modal" title="Click to zoom.">
+						<img src="resources/img/html5-layout-c.png">
+					</a>
+				</div>				
+				<div class="col-sm-6 col-md-3">
+					<a class="thumbnail" data-toggle="modal" href="#html5-layout-d-modal" title="Click to zoom.">
+						<img src="resources/img/html5-layout-d.png">
+					</a>
+				</div>	
+			</div>
+		</div>
+	</div>
+	
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-indent-right"></i> 
+			<span>Horizontal to stacked</span>
+		</div>
+		<div class="panel-body">
+			<p>Using a single set of .col-md-* grid classes, you can create a basic grid system that starts out horizontal on desktop (medium) devices before becoming stacked (vertical) on mobile devices and tablet devices (the extra small to small range).</p>
+
+			<div class="row grid-layout">
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+				<div class="col-md-1">.col-md-1</div>
+			</div>
+			<div class="row grid-layout">
+				<div class="col-md-8">.col-md-8</div>
+				<div class="col-md-4">.col-md-4</div>
+			</div>
+			<div class="row grid-layout">
+				<div class="col-md-4">.col-md-4</div>
+				<div class="col-md-4">.col-md-4</div>
+				<div class="col-md-4">.col-md-4</div>
+			</div>
+			<div class="row grid-layout">
+				<div class="col-md-6">.col-md-6</div>
+				<div class="col-md-6">.col-md-6</div>
+			</div>
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-1&quot;</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-8&quot;</span><span class="nt">&gt;</span>.col-md-8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-4&quot;</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-4&quot;</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-4&quot;</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-4&quot;</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-6&quot;</span><span class="nt">&gt;</span>.col-md-6<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-6&quot;</span><span class="nt">&gt;</span>.col-md-6<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+		</div>
+	</div>
+
+	<div class="panel panel-default style-guide">
+		<div class="panel-heading">
+			<i class="glyphicon glyphicon-indent-right"></i> 
+			<span>Mobile - Tablets - Desktops</span>
+		</div>
+		<div class="panel-body">
+			<p>Build on the previous example by creating even more dynamic and powerful layouts with tablet <code>.col-sm-*</code> classes.</p>
+
+			<div class="row grid-layout">
+				<div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
+			  	<div class="col-xs-6 col-sm-6 col-md-4">.col-xs-6 .col-sm-6 .col-md-4</div>
+			</div>
+			<div class="row grid-layout">
+				<div class="col-xs-6 col-sm-4 col-md-4">.col-xs-6 .col-sm-4 .col-md-4</div>
+				<div class="col-xs-6 col-sm-4 col-md-4">.col-xs-6 .col-sm-4 .col-md-4</div>
+				<!-- Optional: clear the XS cols if their content doesn't match in height -->
+				<div class="clearfix visible-xs"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4">.col-xs-6 .col-sm-4 .col-md-4</div>
+			</div>
+									
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-xs-12 col-sm-6 col-md-8"</span><span class="nt">&gt;</span>.col-xs-12 .col-sm-6 .col-md-8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-xs-6 col-sm-6 col-md-4"</span><span class="nt">&gt;</span>.col-xs-6 .col-sm-6 .col-md-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-xs-6 col-sm-4 col-md-4"</span><span class="nt">&gt;</span>.col-xs-6 .col-sm-4 .col-md-4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-xs-6 col-sm-4 col-md-4"</span><span class="nt">&gt;</span>.col-xs-6 .col-sm-4 .col-md-4<span class="nt">&lt;/div&gt;</span>
+  <span class="c">&lt;!-- Optional: clear the XS cols if their content doesn't match in height --&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"clearfix visible-xs"</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-xs-6 col-sm-4 col-md-4"</span><span class="nt">&gt;</span>.col-xs-6 .col-sm-4 .col-md-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+
+		</div>
+	</div>
+</article>
+
+<!-- Modals -->
+<div class="modal fade" id="html5-layout-a-modal" tabindex="-1" role="dialog" aria-labelledby="html5-layout-a-modalLabel" aria-hidden="true">
+	<div class="modal-dialog html5-layouts">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">HTML5 Example A</h4>
+			</div>
+			<div class="modal-body">
+				<img src="resources/img/html5-layout-a.png" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade" id="html5-layout-b-modal" tabindex="-1" role="dialog" aria-labelledby="html5-layout-b-modalLabel" aria-hidden="true">
+	<div class="modal-dialog html5-layouts">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">HTML5 Example B</h4>
+			</div>
+			<div class="modal-body">
+				<img src="resources/img/html5-layout-b.png" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade" id="html5-layout-c-modal" tabindex="-1" role="dialog" aria-labelledby="html5-layout-c-modalLabel" aria-hidden="true">
+	<div class="modal-dialog html5-layouts">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">HTML5 Example C</h4>
+			</div>
+			<div class="modal-body">
+				<img src="resources/img/html5-layout-c.png" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade" id="html5-layout-d-modal" tabindex="-1" role="dialog" aria-labelledby="html5-layout-d-modalLabel" aria-hidden="true">
+	<div class="modal-dialog html5-layouts">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">HTML5 Example D</h4>
+			</div>
+			<div class="modal-body">
+				<img src="resources/img/html5-layout-d.png" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+<!-- /.modals -->
